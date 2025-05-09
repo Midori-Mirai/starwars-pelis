@@ -45,7 +45,7 @@ public class Principal {
         }
         //entrada.nextLine();
         System.out.println(miListaStarWars);
-        System.out.println("Como quieres llamar a tu archivo: ");
+        System.out.println("Como quieres que tu archivo se llame: ");
         nombreArchivo = entrada.nextLine();
         guardar.guardarPeliculaJson(miListaStarWars,nombreArchivo);
     }
